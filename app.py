@@ -2,8 +2,8 @@ from flask import Flask, render_template
 
 app = Flask(
     __name__,
-    static_folder='projeto-bella-store/static',
-    template_folder='projeto-bella-store'
+    static_folder='static',
+    template_folder='templates'
 )
 
 @app.route('/')
