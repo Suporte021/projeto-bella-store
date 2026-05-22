@@ -65,7 +65,7 @@
             <div class="categorias-grid">
 
                 <div class="cat-card">
-                    <img src="https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=400&q=80" alt="Botas">
+                    <img src="{{ url_for('static', filename='img/botinha.jpg') }}" alt="Botas">
                     <div class="cat-overlay">
                         <p>Botas →</p>
                     </div>
@@ -79,16 +79,9 @@
                 </div>
 
                 <div class="cat-card">
-                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80" alt="Fitness">
+                    <img src="{{ url_for('static', filename='img/fitness.jpg') }}" alt="Fitness">
                     <div class="cat-overlay">
                         <p>Fitness →</p>
-                    </div>
-                </div>
-
-                <div class="cat-card">
-                    <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80" alt="Acessórios">
-                    <div class="cat-overlay">
-                        <p>Acessórios →</p>
                     </div>
                 </div>
 
@@ -105,7 +98,7 @@
 
                 <div class="prod-card">
                     <div class="prod-img">
-                        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&q=80" alt="Tênis Feminino Casual">
+                        <img src="{{ url_for('static', filename='img/feminina.jpg') }}" alt="Tênis Feminino Casual">
                         <span class="coracao">♡</span>
                     </div>
                     <div class="prod-info">
@@ -120,7 +113,7 @@
 
                 <div class="prod-card">
                     <div class="prod-img">
-                        <img src="https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=400&q=80" alt="Bota Outono">
+                        <img src="{{ url_for('static', filename='img/bota.jpg') }}" alt="Bota Outono">
                         <span class="coracao">♡</span>
                     </div>
                     <div class="prod-info">
@@ -135,7 +128,7 @@
 
                 <div class="prod-card">
                     <div class="prod-img">
-                        <img src="https://images.unsplash.com/photo-1562273138-f46be4ebdf33?w=400&q=80" alt="Rasteirinha Conforto">
+                        <img src="{{ url_for('static', filename='img/rasteirinha.jpg') }}" alt="Rasteirinha Conforto">
                         <span class="coracao">♡</span>
                     </div>
                     <div class="prod-info">
@@ -150,7 +143,7 @@
 
                 <div class="prod-card">
                     <div class="prod-img">
-                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80" alt="Tênis Esportivo">
+                        <img src="{{ url_for('static', filename='img/esportivo.jpg') }}" alt="Tênis Esportivo">
                         <span class="coracao">♡</span>
                     </div>
                     <div class="prod-info">
@@ -169,12 +162,12 @@
         <!-- BANNER PROMOCIONAL -->
         <section class="banner-promo">
             <div class="banner-txt">
-                <h2>Nova coleção <em>inverno 2026</em></h2>
+                <h2>Nossa coleção <em>2026</em></h2>
                 <p>Peças selecionadas para mulheres que inspiram.</p>
                 <a href="https://api.whatsapp.com/send?phone=5574988021550&text=Oi!%20Quero%20ver%20a%20nova%20coleção%20inverno%202026!" target="_blank" class="btn-white" style="align-self:flex-start; margin-top:8px;">Conhecer agora</a>
             </div>
             <div class="banner-img">
-                <img src="{{ url_for('static', filename='img/banner.png') }}" alt="Nova coleção inverno 2026">
+                <img src="{{ url_for('static', filename='img/sapatos.jpg') }}" alt="Nova coleção inverno 2026">
             </div>
         </section>
 
