@@ -36,7 +36,7 @@ header {
 }
 
 .icone-lara img {
-    max-height: 80px;
+    max-height: 90px;
     width: auto;
 }
 
@@ -61,7 +61,7 @@ nav a::after {
     width: 0;
     height: 1px;
     background: #5f775b;
-    transition: width 0.3s;
+    transition: width  0.3s;
 }
 
 nav a:hover::after {
@@ -361,12 +361,13 @@ nav a:hover::after {
     justify-content: center;
     position: relative;
     overflow: hidden;
+    padding: 10px;
 }
 
 .prod-img img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: transform 0.3s;
 }
 
